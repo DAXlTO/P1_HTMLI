@@ -3,11 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página principal publicitaria del amped festival.">
-    <title>Amped Festival</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/index.css">
+    <meta name="description" content="Página de información del grupo estopa.">
+    <title>Categoría</title>
+    <link rel="stylesheet" type="text/css" href="../assets/styles/categoria.css">
 </head>
 <body>
     <include src="src/views/menu.html" locals='{ "presentacion": "", "categoria": "current", "enlaces": "" }'></include>
+    <main>
+        <div class="container">
+            <article>
+                <h2>Información sobre el grupo</h2>
+                <p>Vamos a conocer de primera mano cosas acerca de Estopa, desde como fueron sus comienzos, como evolucionaron sus conciertos, anécdotas de los conciertos, lugares más emblemáticos donde han cantado y muchas cosas más.</p>
+                <dl>
+                    <dt id="origen">Comienzo del grupo</dt>
+                    <dd>
+                        <p>Hace 24 años, dos jóvenes en sus veinte años acababan de lanzar su primer álbum después de mucho esfuerzo. Estaban realmente emocionados y satisfechos con su logro. En octubre de 1999, los hermanos Muñoz Calvo, David de 23 años y José Manuel a punto de cumplir 22, ingresaron por primera vez a un estudio de Los 40 Principales, donde les esperaba su compatriota Tony Aguilar.</p>
+
+                        <p>Durante esa conversación entre compatriotas, recordaron sus días en el barrio, sus experiencias con Los Chichos y su primer concierto en el Bar sin Nombre. Sin saberlo, ese día marcó el inicio del "fenómeno Estopa".</p>
+                            
+                            <p>El 18 de octubre de 1999, el primer álbum del dúo catalán llegó a las estanterías de las tiendas de discos. Pocos días después, hicieron su primera entrevista en LOS40 en el programa 'Radio Show' de Tony Aguilar. Luego siguieron actuaciones en Bilbao, Oviedo, Cádiz, Córdoba, Murcia... Era el comienzo de la primera gira de Estopa.</p>
+                        <figure>
+                            <img src="../assets/images/estopa_2.jpg" alt="Kevin Systrom" width="340" height="340">
+                            <figcaption>Fernández, Tomás y Tamaro, Elena. «Biografia de Estopa». En Biografías y Vidas. <a href="https://www.biografiasyvidas.com/biografia/e/estopa.htm" title="Creative Commons Attribution 2.0">Disponible en Biografías y Vidas</a></figcaption>
+                        </figure>
+                        <p><a href="historia.html" title="enlaza con el artículo">+ información sobre su historia</a></p>
+                    </dd>
+                    <dt id="anecdotas">Anécdotas</dt>
+                    <dd>
+                        <p>En su último paso por el hormiguero dejaron algunas anécdotas de sus viajes y conciertos:</p>
+                        <p>Una vez, al llegar a Santiago de Chile, se encontraron con un grupo de fans emocionados que los esperaban. Su manager, quien viajaba con ellos, en lugar de intentar controlar a la multitud que gritaba emocionada o de colocarse frente a la banda, retrocedió lentamente agarrando su maleta, sorprendido por la cantidad de personas que se habían reunido. Este momento causó risas en todo el grupo.</p>
+                        <p>En una ocasión, David compartió que no lleva bien los viajes en avión, y mencionó una experiencia desagradable durante una visita al Gran Cañón del Colorado. Tenían que tomar una avioneta y luego un helicóptero para disfrutar de las vistas. "Para llegar al Cañón tuvimos que tomar una avioneta que se movía mucho. Me sentí mal, me mareé, me desmayé y cuando volví en mí, estaba en una camilla siendo atendido por un médico", relató. "Mis pulsaciones eran tan bajas como las de Induráin en reposo", agregó. La experiencia fue tan impactante que decidieron cancelar la visita y regresar a Las Vegas en furgoneta, un viaje de seis horas que tampoco disfrutó mucho.</p>
+                        <p>El relato de estas experiencias por parte de los hermanos provocó risas entre el público, especialmente cuando narraron cómo conocieron a la actriz Sigourney Weaver en la entrega de los premios Goya de ese año. "Fuimos como unos fans y le dije a Sigourney: 'Me encantan todas tus películas'", recordó David entre risas. "Ella me respondió algo que no entendí en absoluto... Afortunadamente, Pedro Almodóvar estaba a mi lado y actuó como traductor", añadió, lo que generó aún más risas en la audiencia.                        </p>
+                        <figure>
+                            <img src="../assets/images/estopa7-t.jpg" alt="Estopa en el hormiguero" width="500">
+                            <figcaption>Pablo Motos y Estopa, en 'El Hormiguero' Antena 3. <a href="https://www.atresmedia.com/">Imagen de atresmedia</a></figcaption>
+                        </figure>
+                    </dd>
+                    <dt id="conciertos">Mejores conciertos</dt>
+                    <dd>
+                        <p>Uno de los mejores conciertos que van a dar en 2024 es en Madrid, en el estadio Civitas Metropolitano. Donde llegan a entrar 70.000 personas y se puede convertir en el mayor concierto realizado por la banda.</p>
+                        <figure>
+                            <img src="../assets/images/estopa_esatadio.jpg" alt="Edifici de ByteDance" width="350" height="233">
+                            <figcaption>Imagen de <a href="https://www.taquilla.com/entradas/estopa">taquilla</a></figcaption>
+                        </figure>
+                    </dd>                
+                </dl>
+            </article>
+        </div>
+    </main>
+    <include src="src/views/footer.html"></include>
+
 </body>
 </html>

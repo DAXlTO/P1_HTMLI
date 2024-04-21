@@ -1,0 +1,146 @@
+.navegacion{
+    margin-left: 12.5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navegacion a{
+    text-decoration: none;
+     color: rgb(0, 59, 74);
+    
+}
+
+.navegacion a:hover{
+     color: rgb(191, 12, 240)
+}
+
+.contenido-principal{
+    margin: 15px;
+}
+
+.cont2 img{
+    width: 100%;
+}
+
+.autor-entrada-secundaria{
+    color: rgb(158, 157, 171);
+    font-size: 15px;
+    margin-bottom: 4px;
+    padding-bottom: 20px;
+}
+
+.titulo-texto{
+    color: rgb(0,59,74);
+    font-weight: 900;
+    font-size: 28px;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+.titular-lateral{
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.titular-entrada-secundaria{
+    color: rgb(0,59,74);
+    font-weight: 900;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 0;
+}
+
+.cont2{
+  width: 22%;
+  margin-right: 2.5%;
+}
+
+.texto-img{
+    margin: 15px;
+}
+
+.imagen-entrada{
+    position: relative;
+    display: inline-block;
+}
+
+.titulo-entrada{
+    margin-left: 25px;
+}
+
+.titular-entrada-principal{
+    font-weight: 900;
+    font-size: 54px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.general-entrada{
+    display: flex;
+    width: 100%; 
+}
+
+.entrada-principal{
+    width: 50%;
+    margin-left: 12.5%;
+    margin-right: 5%;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.lateral{
+    width: auto;
+    margin-bottom: 30px;
+    border: 0;
+}
+
+.articulos-recientes{
+    width: 20%;
+    margin-right: 12.5%;
+}
+
+.entrada-cabecera{
+    margin: 20px;
+    background-color: rgb(229, 225, 254);
+    box-decoration-break: clone;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .cont2{
+        margin-left: 2.5%;
+        margin-top: 40px;
+        width: auto;
+    }
+    .navegacion{
+        margin-left: 2.5%;
+    }
+    .general-entrada{
+        display: grid;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .entrada-principal{
+        width: 100%;
+        margin-left: auto;
+    }
+    .articulos-recientes {
+        width: auto;
+        margin-right: auto;
+      }
+      .titular-lateral{
+        margin-left: 2.5%;
+      }
+}

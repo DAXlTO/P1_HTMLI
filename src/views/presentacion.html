@@ -3,11 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página principal publicitaria del amped festival.">
-    <title>Amped Festival</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/index.css">
+    <meta name="description" content="Página de información del grupo estopa.">
+    <title>Presentación</title>
+    <link rel="stylesheet" type="text/css" href="../assets/styles/presentacion.css">
 </head>
 <body>
     <include src="src/views/menu.html" locals='{ "presentacion": "current", "categoria": "", "enlaces": "" }'></include>
+    <main>
+        <div class="apartado separacion-pie">
+            <div class="descripcion">
+                <h1>¿Qué encontrarás en la web?</h1>
+                <p>Esta es una web homenaje al grupo de música Estopa, ese estilo de música español que es capaz de levantarte</p><p>el ánimo o recordar momentos del pasado. Encontrarás algunos puntos de información como los siguientes:</p>    
+            </div>
+            <div class="opciones">
+                <figure class="trans-left">
+                    <img class="imagen" src="../assets/images/guitarra.jpg" alt="Alimentos que combaten el estrés">
+                    <figcaption class="pie-foto">© Imagen de <a href="https://pixabay.com/es/users/cherrylafoto-4960288/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2964156">Diana Cherry</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2964156">Pixabay</a></figcaption>
+                </figure>
+                <div>
+                    <p class="titulo-opc">Comienzo del grupo</p>
+                    <p class="texto-opc">Descubiremos el origen del grupo, cómo se formó, de dónde viene la idea y todo lo que vino después!</p>
+                    <a href="categoria.html#origen" class="boton-opc">SABER MÁS</a>
+                </div>
+            </div>
+        
+            <div class="opciones">
+                <div class="text-right">
+                    <p class="titulo-opc">Historia</p>
+                    <p class="texto-opc">Haremos un repaso de como han ido evolucionando desde su primer disco hasta los conciertos de hoy día llenando estadios de fútbol.</p>
+                    <a href="categoria.html#anecdotas" class="boton-opc">SABER MÁS</a>
+                </div>
+                <figure class="trans-right">
+                    <img class="imagen" src="../assets/images/historia.jpg" alt="Alimentos que combaten el estrés">
+                    <figcaption class="pie-foto">Imagen de <a href="https://pixabay.com/es/users/stocksnap-894430/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2606859">StockSnap</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2606859">Pixabay</a></figcaption>
+                </figure>
+            </div>
+
+            <div class="opciones">
+                <figure class="trans-left">
+                    <img class="imagen" src="../assets/images/risas.jpg" alt="Alimentos que combaten el estrés">
+                    <figcaption class="pie-foto">Imagen de <a href="https://pixabay.com/es/users/judam-1486966/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=995213">Juda</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=995213">Pixabay</a></figcaption>
+                </figure>
+                <div>
+                    <p class="titulo-opc">Anécdotas</p>
+                    <p class="texto-opc">Conoceremos de primera mano algunas situaciones graciosas que han vivido en todos estos años de giras por el mundo.</p>
+                    <a href="categoria.html#anecdotas" class="boton-opc">SABER MÁS</a>
+                </div>
+            </div>
+
+            <div class="opciones">
+                <div class="text-right">
+                    <p class="titulo-opc">Conciertos</p>
+                    <p class="texto-opc">Veremos el carte que nos espera para este año 2024 y como han evolucionado los lugares donde empezaron tocando y donde lo hacen en la actualidad.</p>
+                    <a href="categoria.html#conciertos" class="boton-opc">SABER MÁS</a>
+                </div>
+                <figure class="trans-right">
+                    <img class="imagen" src="../assets/images/concert-3387324_1280.jpg" alt="Alimentos que combaten el estrés">
+                    <figcaption class="pie-foto">Imagen de <a href="https://pixabay.com/es/users/thekaleidoscope-8956502/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3387324">Vishnu R</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3387324">Pixabay</a></figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+    <include src="src/views/footer.html"></include>
 </body>
 </html>
