@@ -30,7 +30,7 @@ de la página index *******/
     color: white;
   }
   .body-index a:hover {
-    color: var(--contrast-color);
+    color: #a4f479;
   }
 
   .style-text {

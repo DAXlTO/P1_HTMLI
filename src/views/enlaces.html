@@ -5,9 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Página de información del grupo estopa.">
     <title>Enlaces</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/enlaces.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/menu.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/footer.css">
 </head>
 <body>
     <include src="src/views/menu.html" locals='{ "presentacion": "", "categoria": "", "enlaces": "current" }'></include>
+    <main>
+        <div class="container">
+            <article>
+                <h2>Información sobre los derechos de autor</h2>
+                <dl>
+                    <dt>Sobre las imágenes</dt>
+                    <dd>
+                        <p>La mayoría de las imágenes vienen con la fuente dónde las he obtenido y su autor, a excepción de las siguientes:</p>
+                        <ul>
+                            <li>La imagen de inicio que también la he utilizado en la cabecera. Esta <a href="https://pixabay.com/es/photos/audiencia-banda-celebracion-1867754/">imagen</a> tiene los derechos de "Imagen de <a href="https://pixabay.com/es/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1867754">Pexels</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1867754">Pixabay</a>"</li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Sobre la información del grupo</dt>
+                    <dd>
+                        <p>La información que he obtenido del grupo ha sido procesada por mi, en ningun caso es una copia del documento original. Las fuentes consultadas son las siguientes:</p>
+                        <ul>
+                            <li>Información del grupo encontrada en la <a href="https://es.wikipedia.org/wiki/Estopa_(banda)">Wikipedia</a></li>
+                            <li>Anéctodas <a href="https://www.hola.com/actualidad/20240320251201/estopa-anecdotas-carrera-25-aniversario/">obtenidas</a>  del hormiguero</li>
+                            <li>Información de <a href="https://www.taquilla.com/entradas/estopa">conciertos y giras</a> </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Canción homenaje</dt>
+                    <div class="iframe">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5FlL1DXl6kU?si=MAOqLSCC7vAXk6wp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </dl>
+            </article>
+        </div>
+    </main>
+    <include src="src/views/footer.html"></include>
 </body>
 </html>
