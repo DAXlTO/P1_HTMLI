@@ -123,6 +123,9 @@
         margin-top: 40px;
         width: auto;
     }
+    .titulo-entrada{
+        margin-left: 0;
+    }
     .navegacion{
         margin-left: 2.5%;
     }
@@ -135,6 +138,7 @@
     .entrada-principal{
         width: 100%;
         margin-left: auto;
+        margin-bottom: 0;
     }
     .articulos-recientes {
         width: auto;
@@ -142,5 +146,8 @@
       }
       .titular-lateral{
         margin-left: 2.5%;
+      }
+      .texto-img{
+        text-align: center;
       }
 }

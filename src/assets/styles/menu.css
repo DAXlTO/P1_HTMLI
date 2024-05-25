@@ -37,6 +37,17 @@ de las páginas  *******/
     justify-content: center;
   }
 
+  .logo-menu{
+    position: absolute;
+    margin-top: auto;
+    margin-left: 50px;
+
+    img{
+      width: 150px;
+      height: 100px;
+    }
+  }
+
   nav {
     box-sizing: border-box;
     text-align: center;
@@ -49,6 +60,7 @@ de las páginas  *******/
     display: flex;
     justify-content: center;
     align-items: center;
+    clip-path: ellipse(50% 50%);
 }
 
   nav a {
@@ -66,4 +78,38 @@ de las páginas  *******/
   }
   nav a:hover {
       color: var(--contrast-color);
+  }
+
+  @media (max-width: 1050px) {
+    .logo-menu{
+      display: none;
+    }
+  }
+  @media (max-width: 600px) {
+    nav{
+        clip-path: none;
+        width: 70%;
+    }
+    
+    .menu-cabecera {
+      display: block;
+    }
+
+    nav a.current {
+      border-bottom: none;
+      padding-bottom : 0;
+
+    }
+    ul{
+      max-width: 100%;
+    }
+    li{
+      padding-bottom : 10px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    nav a {
+      font-size: 1rem;
+    }
   }
