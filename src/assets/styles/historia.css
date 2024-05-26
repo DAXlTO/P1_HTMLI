@@ -6,7 +6,7 @@
 
 .navegacion a{
     text-decoration: none;
-     color: rgb(0, 59, 74);
+     color: gray;
     
 }
 
@@ -23,7 +23,7 @@
 }
 
 .autor-entrada-secundaria{
-    color: rgb(158, 157, 171);
+    color: gray;
     font-size: 15px;
     margin-bottom: 4px;
     padding-bottom: 20px;
@@ -75,6 +75,9 @@
     margin-left: 25px;
 }
 
+.titulo-entrada p{
+    padding: 10px;
+}
 .titular-entrada-principal{
     font-weight: 900;
     font-size: 54px;
@@ -116,7 +119,11 @@
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
+
+    .entrada-cabecera{
+        margin: 0;
+    }
 
     .cont2{
         margin-left: 2.5%;
@@ -125,6 +132,9 @@
     }
     .titulo-entrada{
         margin-left: 0;
+    }
+    .titulo-entrada p{
+        padding: 5px;
     }
     .navegacion{
         margin-left: 2.5%;

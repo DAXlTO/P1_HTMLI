@@ -71,3 +71,29 @@ de la página index *******/
   padding: 0;
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+  .menu{
+    clip-path: none;
+    width: 70%;
+    padding: 20;
+    text-align: center;
+  }
+  .text-container{
+    margin-top: 0;
+  }
+
+  .menu-cabecera {
+    display: block;
+  }
+
+  .autores {
+    color: black;
+  }
+  ul{
+    max-width: 100%;
+  }
+  li{
+    padding-bottom : 10px;
+  }
+}
